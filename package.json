@@ -4,7 +4,8 @@
   "description": "PWA",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c-l ."
+    "start": "http-server -c-l .",
+    "secure": "ngrok http 8080"
   },
   "keywords": [
     "pwa",
